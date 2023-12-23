@@ -24,6 +24,9 @@ pipeline {
       steps {
         sh 'mysql --version'
       }
+steps {
+        sh 'select * from employee'
+      }
     }
   }
 }
